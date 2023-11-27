@@ -1,0 +1,310 @@
+*{
+    background-color: cornsilk;
+}
+.Facebook{
+  color: red;
+  text-align: center;
+  margin: 10vh;
+  font-size: xx-large;
+  padding: 5%;
+}
+
+input {
+    border: 10px solid;
+    border-bottom: 10px solid blue;
+    border-radius: 5vh;
+    border-style: double;
+    background-color: lemonchiffon;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+button{
+  font-size: 100%;
+  text-align: center;
+  padding: 2%;
+  width: 20%;
+  border: 0;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+.karu:hover{
+    color: white;
+    background: red;
+}
+.sign{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.sign > div {
+    width: 70vh;
+    text-align: center;
+    margin: 100px;
+}
+#cast{
+  text-align: center;
+  font-size: xx-large;
+}
+#Wax{
+    text-align: center;
+    height: 20px;
+    font-size: x-large;
+}
+#Wax > a:hover{
+  background-color: red;
+  color: white;
+}
+.use{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1vh 1vh 1vh  blue;
+    margin-top: 10vh;
+}
+.sin{
+    text-align: center;
+    margin: 30vh;
+    font-size: xx-large;
+}
+
+  #number{
+    text-align: center;
+    margin-top: 10%;
+    font-size: xx-large;
+  }
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: 2px solid;
+  outline: 2px solid;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: aqua;
+}
+
+.tabcontent {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+
+#London {
+  background-color:red;
+  color: red;
+}
+#Paris {
+  background-color:green;
+  color: green;
+}
+#Tokyo {
+  background-color:blue;
+  color: blue;
+}
+#Oslo {
+  background-color:orange;
+  color: orange;
+}
+#wrapper{
+  margin: 10%;
+  height: 1200px;
+  border: 2px solid blue;
+  border-radius: 10%;
+  padding: 30px;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: none;
+  box-sizing: border-box;
+  color: red;
+
+  #dialog{
+    margin: 10px auto;
+    padding: 20px 30px;
+    display: inline-block;
+    background-color: aqua;
+    overflow: hidden;
+    position: relative;
+    max-width: 450%;
+
+    .live:hover{
+      background: red;
+      color: white;
+    }
+    #form{
+      max-width: 500px;
+      margin: 5% auto 0;
+    }
+    .myInput{
+      margin: 0 0.5%;
+      text-align: center;
+      line-height: 10vh;
+      font-size: large;
+      border: 10px solid red;
+      border-style: double;
+      outline: none;
+      width: 9%;
+      transform: all .2s ease-in-out;
+    }
+    .button{
+      font-size: 200%;
+      margin: 30px 0 50px;
+      padding: 5%;
+      width: 100%;
+      border: 5px solid red;
+      text-transform: uppercase;
+    }
+    .button:hover{
+      background: red;
+      color: white;
+    }
+    .button{
+      &.close{
+        border: 2px solid;
+        border-radius: 30px;
+        line-height: 19px;
+        font-size: 120%;
+        width: 22px;
+      }
+    }
+    div > #wrapper > #dialog > #form {
+      position: relative;
+      z-index: 1;
+    }
+    .img{
+      position: absolute;
+      bottom: -70px;
+      right: -63px;
+    }
+  }
+}
+
+.Sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-size: x-large;
+}
+.Sidenav > a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 100%;
+  background-color: black;
+  display: block;
+  transition: 50%;
+}
+.Sidenav > a:hover{
+  color: white;
+  background: blue;
+}
+.Sidenav > .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+span{
+  display: inline-block;
+  margin-left: 94%;
+}
+/* @media screen and (max-height:450px){
+  .Sidenav {padding-left: 15px;}
+  .Sidenav > a{font-size: 18px;}
+} */
+.lass{
+  padding: 16px;
+}
+.phone{
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: auto;
+  padding: 20px;
+  width: 20%;
+}
+.phone > a {
+  padding: 20px;
+  width: 10%;
+  font-size: 100%;
+  margin: 30px 0 50px;
+}
+.Edit > nav{
+  display: inline-block;
+  outline: none;
+  border: 2px solid blue;
+  width: 100%;
+  border-radius: 3%;
+}
+.Edit > nav > ul{
+  background-color: white;
+  margin: 2px;
+}
+.Edit > nav > ul > #picture{
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  border-radius: calc(70%);
+}
+#h2{
+  margin-top: 0px;
+  display: inline;
+  margin-left: 10%;
+  font-size: 500%;
+}
+.dropbtn{
+  background-color: red;
+  color: white;
+  text-align: left;
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  font-size: larger;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content:hover{
+  background: red;
+  color: white;
+}
+.dropdown-content > a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content > a:hover { background-color: red; color: white;}
+.dropdown:hover > .dropdown-content{display: block;}
+.dropdown:hover > .dropbtn {background-color: blue;}
+
+.error{
+  color: red;
+}
+.span{
+  visibility: hidden;
+  display: inline-block;
+}

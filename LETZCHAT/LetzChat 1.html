@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LetzChat</title>
+    <link rel="stylesheet" href="LetzChat.css">
+    <link rel="icon" href="favicon (4).ico">
+    <script src="LetzChat.js"></script>
+</head>
+<body>
+  <div id="London" class="tabcontent">
+    <h1>London</h1>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+    <h1>Paris</h1>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Tokyo" class="tabcontent">
+    <h1>Tokyo</h1>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  
+  <div id="Oslo" class="tabcontent">
+    <h1>Oslo</h1>
+    <p>Oslo is the capital of Norway.</p>
+  </div>
+  <div class="link">
+  <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+  <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+  <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+  <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+  </div>
+
+    <div class="Facebook" id="function">
+        <h3>Enter Your Log In Details</h3>
+        <form id="myForm" action="/LETZCHAT/LetzChat  7.html" onsubmit="return validateform()">
+          <label for="Phone Number or Email Address">Phone Number or Email Address:</label><br>
+          <input type="email" id="Phone Number or email Address" name="Phone Number or Email Address" placeholder="Name@gmail.com" autocapitalize="uppercase" autocomplete="username" ><br>
+          <label for="Password">Password:</label><br>
+          <input type="password" value=""  name="" id="myInput"><br>
+          <input type="checkbox" pattern="0-8" onclick="myFunction()">Show Password <br>
+          <input onclick="myFunction1()" type="Submit"></input>
+        </form>
+    <a class="karu" href="/LETZCHAT/LetzChat  2.html">Create a new account</a><br>
+    </div>
+</body>
+</html>

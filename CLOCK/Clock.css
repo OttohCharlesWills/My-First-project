@@ -1,0 +1,11 @@
+form{
+  background-color: blue;
+  width: 25%;
+}
+#form > input{
+  background-color: black;
+  color: white;
+  font-size: larger;
+  border: 10px solid red;
+  border-style: double;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: #55FbFb;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: green;
+    border-width: 5px;
+    width: 5%;
+}
+.Wills{
+    color: blue;
+    border-radius: calc(50%);
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img > div {
+    width: 310px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}

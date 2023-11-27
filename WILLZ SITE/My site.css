@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 25vh;
+}
+#Web{
+    text-decoration: underline red;
+}
+.red{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.yellow{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+#top-cloud{
+    position: absolute;
+    right: 30vw ;
+    top: 15vh;
+}
+#bottom-cloud{
+    position: absolute;
+    left: 50vh;
+    bottom: 50vh;
+}

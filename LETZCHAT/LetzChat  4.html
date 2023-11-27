@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LetzChat</title>
+    <link rel="stylesheet" href="LetzChat.css">
+    <link rel="icon" href="favicon (4).ico">
+    <script src="LetzChat.js"></script>
+</head>
+<body>
+    <div class="use">
+    <h1>Please Enter The 4-digit Verification code We've Sent via SMS</h1>
+    <div id="wrapper">
+        <div id="dialog">
+            <button class="close">×</button>
+            <div id="form">
+                <input class="myInput" type="text" maxlength="1" size="1" min="0" max="9" part="[0-9]{1}">
+                <input class="myInput" type="text" maxlength="1" size="1" min="0" max="9" part="[0-9]{1}">
+                <input class="myInput" type="text" maxlength="1" size="1" min="0" max="9" part="[0-9]{1}">
+                <input class="myInput" type="text" maxlength="1" size="1" min="0" max="9" part="[0-9]{1}"><br>
+                <br><button class="btn btn-primary btn-embosed">Verify</button>
+                <br><button class="button">Verify</button>
+
+                <div>
+                    <p>Didn't Recieve The Code ?</p>
+                </div>
+                <a class="live" href="#">Send The Code Again</a><br>
+                <a class="live" href="#">Change Phone Number</a>
+            </div>
+            <img class="img" src="Images/image 245.png" alt="iron man">
+        </div>
+    </div>
+    <br><a href="/LETZCHAT/LetzChat  5.html"><button type="button">NEXT</button></a>
+    </div>
+    <h1>Verification Code</h1>
+    <form action="/send_verification" method="post">
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <input type="submit" value="Send Verification Code">
+    </form>
+    
+</body>
+</html>
